@@ -1,0 +1,36 @@
+
+.App, body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-align: center;
+  }
+  
+  .container {
+    padding: 20px;
+  }
+  
+  @-webkit-keyframes fadeInCard{
+    from {display:"none";transform: translateY(20%) scale(0);} 
+    to{ display:"block"; transform: translateY(0%) scale(1);}
+  }
+  @keyframes fadeInCard{ 
+    from {display:"none";transform: translateY(20%) scale(0);} 
+    to{ display:"block"; transform: translateY(0%) scale(1);}
+  }
+  @-webkit-keyframes fadeOutCard{
+    from{ display:"block"; transform: translateY(0%) scale(1);}
+    to {display:"none";transform: translateY(20%) scale(0);} 
+  }
+  @keyframes fadeOutCard{ 
+    from{ display:"block"; transform: translateY(0%) scale(1);}
+    to {display:"none";transform: translateY(20%) scale(0);} 
+  }
+  
+  
+  @keyframes fadeInTable{ 
+    from {display:"none";transform: translateY(-20%); } 
+    to{ display:"block"; transform: translateX(0%) ranslateY(0%);}
+  }
+  @keyframes fadeOutTable{ 
+    from{ display:"block"; transform: translateX(0%) ranslateY(0%);}
+    to {display:"none";transform: translateY(-20%); } 
+  }
